@@ -28,7 +28,7 @@ Use code with caution.
 content_copy
 Prepare Your Database:
 
-Create a MySQL database named pet_peers.
+**Create a MySQL database named pet_peers.**
 
 Update the database connection details in src/main/resources/application.properties:
 
@@ -40,18 +40,18 @@ Use code with caution.
 content_copy
 Replace your_db_username and your_db_password with your actual credentials.
 
-Build and Run:
+# Build and Run:
 
-Build the Project:
+**Build the Project:**
 
-Bash
+**Bash**
 cd pet-peers
 mvn clean install
 Use code with caution.
 content_copy
 Launch the Application:
 
-Bash
+**Bash**
 mvn spring-boot:run
 Use code with caution.
 content_copy
@@ -59,13 +59,20 @@ Welcome to Your Pet Paradise:
 
 Open a web browser and navigate to http://localhost:8080. You'll be greeted by the Pet Peers home page, showcasing your pet profiles.
 
-Managing Your Pet Menagerie:
+# Usage
+Add a New Pet:
+Click the “Add Pet” button.
+Fill in the pet details (name, age, breed, etc.).
+Click “Save” to add the pet to the database.
+View Pet Details:
+Click on a pet’s name to view its details.
+Update Pet Information:
+Click the “Edit” button next to a pet’s details.
+Modify the information and click “Save Changes”.
+Delete a Pet:
+Click the “Delete” button next to a pet’s details.
 
-Add a New Furry Friend: Click the "Add Pet" button and provide your pet's details (name, age, breed, etc.). Click "Save" to add them to the database.
-View Pet Details: Click on a pet's name to see their comprehensive profile.
-Update Pet Information: Click the "Edit" button next to a pet's details and modify as necessary. Click "Save Changes" to apply the updates.
-Parting with a Pet: Click the "Delete" button next to a pet's details to remove them from the system.
-Tech Stack:
+# Tech Stack:
 
 Spring Boot: Provides a robust foundation for building this web application.
 Thymeleaf: Enables dynamic content generation for a seamless user experience.
