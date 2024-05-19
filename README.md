@@ -74,7 +74,7 @@ Click the “Delete” button next to a pet’s details.
 
 # Tech Stack:
 
-**Spring Boot**: Provides a robust foundation for building this web application.
-**Thymeleaf**: Enables dynamic content generation for a seamless user experience.
-**CSS**: Crafts the application's visual style and presentation.
-**MySQL**: The reliable backend storage solution for managing your pet data.
+-**Spring Boot**: Provides a robust foundation for building this web application.
+-**Thymeleaf**: Enables dynamic content generation for a seamless user experience.
+-**CSS**: Crafts the application's visual style and presentation.
+-**MySQL**: The reliable backend storage solution for managing your pet data.
