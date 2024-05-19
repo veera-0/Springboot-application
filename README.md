@@ -60,16 +60,16 @@ Welcome to Your Pet Paradise:
 Open a web browser and navigate to http://localhost:8080. You'll be greeted by the Pet Peers home page, showcasing your pet profiles.
 
 # Usage
-Add a New Pet:
+- **Add a New Pet:**
 Click the “Add Pet” button.
 Fill in the pet details (name, age, breed, etc.).
 Click “Save” to add the pet to the database.
-View Pet Details:
+- **View Pet Details:**
 Click on a pet’s name to view its details.
-Update Pet Information:
+- **Update Pet Information:**
 Click the “Edit” button next to a pet’s details.
 Modify the information and click “Save Changes”.
-Delete a Pet:
+- **Delete a Pet:**
 Click the “Delete” button next to a pet’s details.
 
 # Tech Stack:
